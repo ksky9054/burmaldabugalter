@@ -90,6 +90,7 @@
             // 
             textBox1.Location = new Point(392, 12);
             textBox1.Name = "textBox1";
+            textBox1.PlaceholderText = "Поиск";
             textBox1.Size = new Size(320, 23);
             textBox1.TabIndex = 1;
             textBox1.TextChanged += textBox1_TextChanged;
@@ -284,6 +285,7 @@
             textBox2.Location = new Point(91, 63);
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
+            textBox2.PlaceholderText = "Введите ИНН или название компании.";
             textBox2.Size = new Size(341, 52);
             textBox2.TabIndex = 3;
             // 
@@ -337,6 +339,7 @@
             textBox3.Location = new Point(146, 50);
             textBox3.Multiline = true;
             textBox3.Name = "textBox3";
+            textBox3.PlaceholderText = "Например: Где найти закон об НДС?";
             textBox3.Size = new Size(677, 34);
             textBox3.TabIndex = 6;
             // 
